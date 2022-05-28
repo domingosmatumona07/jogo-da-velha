@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Jogo da Velha</h1>
+    <!-- <h2>Developed by Domingos Matumona (a simple website Developer)</h2> -->
+    <div class="tabuleiro">
+      <div class="row rb">
+        <div class="col space" onclick="play(0)"></div>
+        <div class="col space" onclick="play(1)"></div>
+        <div class="space" onclick="play(2)"></div>
+      </div>
+      <div class="row rb">
+        <div class="col space" onclick="play(3)"></div>
+        <div class="col space" onclick="play(4)"></div>
+        <div class="space" onclick="play(5)"></div>
+      </div>
+      <div class="row">
+        <div class="col space" onclick="play(6)"></div>
+        <div class="col space" onclick="play(7)"></div>
+        <div class="space" onclick="play(8)"></div>
+      </div>
+    </div>
+
+    <div id="status"></div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
